@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftlearn}",
+            "name": "Debug SwiftLearn",
+            "program": "${workspaceFolder:swiftlearn}/.build/debug/SwiftLearn",
+            "preLaunchTask": "swift: Build Debug SwiftLearn"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swiftlearn}",
+            "name": "Release SwiftLearn",
+            "program": "${workspaceFolder:swiftlearn}/.build/release/SwiftLearn",
+            "preLaunchTask": "swift: Build Release SwiftLearn"
+        }
+    ]
+}
