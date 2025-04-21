@@ -1,0 +1,15 @@
+version: 3
+
+vars:
+  APP_NAME: SwiftLearn
+
+tasks:
+  build-app:
+    desc: Build the application 
+    cmds:
+      - swift build
+  run-app:
+    desc: Run the aplication
+    cmds:
+      - swift run {{.APP_NAME}}
+ 
